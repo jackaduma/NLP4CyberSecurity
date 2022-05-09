@@ -6,10 +6,10 @@
 '''
 Author: Kun
 Date: 2022-05-09 15:27:04
-LastEditTime: 2022-05-09 15:27:08
+LastEditTime: 2022-05-09 22:22:10
 LastEditors: Kun
 Description: 
-FilePath: /my_open_projects/weak-password-detection-with-ML/models/tfidf.py
+FilePath: /my_open_projects/NLP4CyberSecurity/embedding/tfidf.py
 '''
 
 
