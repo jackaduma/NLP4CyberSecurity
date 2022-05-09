@@ -5,10 +5,10 @@
 '''
 Author: Kun
 Date: 2022-05-09 15:28:02
-LastEditTime: 2022-05-09 15:28:05
+LastEditTime: 2022-05-09 22:22:04
 LastEditors: Kun
 Description: 
-FilePath: /my_open_projects/weak-password-detection-with-ML/models/svm_clf.py
+FilePath: /my_open_projects/NLP4CyberSecurity/models/svm_clf.py
 '''
 
 
