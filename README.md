@@ -1,4 +1,5 @@
-# NLP4CyberSecurity
+# **NLP4CyberSecurity**
+
 NLP  model and tech  for cyber security task
 
 
@@ -7,16 +8,16 @@ NLP  model and tech  for cyber security task
 
 
 
+---
 
 
-
-### weak-password-detection-with-ML
+## **weak-password-detection-with-ML**
 
 weak password detection with machine learning
 
 weak-password/password-strength detection with machine learning; 弱密码检测；密码强度检测
 
-#### **Eval Result**
+### **Eval Result**
 
 ```
 
@@ -31,3 +32,10 @@ weak-password/password-strength detection with machine learning; 弱密码检测
 weighted avg    0.96410   0.96428   0.96355     66964
 
 ```
+
+
+---
+
+## **malicious-url-detection-with-ML**
+
+malicious url detection with machine learning
