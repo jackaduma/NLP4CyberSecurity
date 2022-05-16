@@ -6,13 +6,13 @@
 '''
 Author: Kun
 Date: 2021-12-16 11:21:53
-LastEditTime: 2021-12-22 17:33:12
+LastEditTime: 2022-05-16 19:59:05
 LastEditors: Kun
 Description: 
-FilePath: /qihoo-projects/XSS-Injection-Detect-ML/models/simple_nn.py
+FilePath: /my_open_projects/NLP4CyberSecurity/models/simple_nn.py
 '''
 
-
+import os
 import time
 import numpy as np
 import tensorflow as tf
@@ -23,8 +23,10 @@ from keras.optimizers import Adam
 from keras.models import load_model
 from sklearn.metrics import precision_score, recall_score
 
-from data_loader.datasets import build_dataset
-from text_utils import init_session
+from data_loader.xss_datasets import build_dataset
+from utils import init_session
+
+CACHE_DIR = "./cache/xss_injection"
 
 tf.compat.v1.disable_eager_execution()
 
@@ -32,8 +34,7 @@ init_session()
 batch_size = 8  # 500
 epochs_num = 50  # 1
 log_dir = "log/simple_nn.log"
-model_dir = "cache/simple_nn_model"
-
+model_dir = os.path.join(CACHE_DIR, "simple_nn_model")
 
 def train(train_generator, train_size, input_num, dims_num):
     print("Start Train Job! ")

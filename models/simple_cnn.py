@@ -2,15 +2,6 @@
 # -*- coding: utf-8 -*-
 # @author: Kun
 
-'''
-Author: Kun
-Date: 2021-12-16 11:22:00
-LastEditTime: 2021-12-22 17:31:03
-LastEditors: Kun
-Description: 
-FilePath: /qihoo-projects/XSS-Injection-Detect-ML/models/simple_cnn.py
-'''
-
 
 import os
 import time
@@ -19,10 +10,11 @@ from keras.layers import Dense, InputLayer, Dropout, LSTM, Conv1D, Flatten, Glob
 from keras.callbacks import EarlyStopping, TensorBoard
 from keras.optimizers import Adam
 
-from data_loader.datasets import build_dataset
-from text_utils import init_session
+from data_loader.xss_datasets import build_dataset
+from utils import init_session
 from models.simple_nn import test
-from project_config import DATA_DIR, CACHE_DIR
+
+CACHE_DIR = "./cache/xss_injection"
 
 init_session()
 

@@ -6,10 +6,10 @@
 '''
 Author: Kun
 Date: 2021-12-16 11:22:09
-LastEditTime: 2021-12-22 17:32:13
+LastEditTime: 2022-05-16 19:58:51
 LastEditors: Kun
 Description: 
-FilePath: /qihoo-projects/XSS-Injection-Detect-ML/models/simple_lstm.py
+FilePath: /my_open_projects/NLP4CyberSecurity/models/simple_lstm.py
 '''
 
 
@@ -26,9 +26,10 @@ from keras.models import load_model
 from sklearn.metrics import precision_score, recall_score
 
 
-from data_loader.datasets import build_dataset
-from text_utils import init_session
-from project_config import CACHE_DIR, DATA_DIR
+from data_loader.xss_datasets import build_dataset
+from utils import init_session
+
+CACHE_DIR = "./cache/xss_injection"
 
 init_session()
 batch_size = 8  # 128
