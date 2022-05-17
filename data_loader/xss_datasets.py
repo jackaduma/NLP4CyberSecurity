@@ -5,7 +5,7 @@
 '''
 Author: Kun
 Date: 2022-05-10 14:10:25
-LastEditTime: 2022-05-10 14:10:40
+LastEditTime: 2022-05-17 18:29:38
 LastEditors: Kun
 Description: 
 FilePath: /my_open_projects/NLP4CyberSecurity/data_loader/xss_datasets.py
@@ -83,7 +83,7 @@ def batch_generator(datas_dir, datas_size, batch_size, embeddings, reverse_dicti
 def build_dataset(batch_size):
     with open(vec_dir, "rb") as f:
         word2vec = pickle.load(f)
-    print(word2vec)
+    # print(word2vec)
     embeddings = word2vec["embeddings"]
     reverse_dictionary = word2vec["reverse_dictionary"]
     train_size = word2vec["train_size"]

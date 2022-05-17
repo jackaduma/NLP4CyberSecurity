@@ -6,10 +6,10 @@
 '''
 Author: Kun
 Date: 2021-12-16 11:22:09
-LastEditTime: 2022-05-16 19:58:51
+LastEditTime: 2022-05-17 18:31:54
 LastEditors: Kun
 Description: 
-FilePath: /my_open_projects/NLP4CyberSecurity/models/simple_lstm.py
+FilePath: /my_open_projects/users/kunma/projects/my_open_projects/nlp4cybersecurity/models/simple_lstm.py
 '''
 
 
@@ -33,7 +33,7 @@ CACHE_DIR = "./cache/xss_injection"
 
 init_session()
 batch_size = 8  # 128
-epochs_num = 50  # 2
+epochs_num = 10 # 50  # 2
 process_datas_dir = os.path.join(CACHE_DIR, "process_datas.pickle")
 
 log_dir = "log/simple_lstm.log"

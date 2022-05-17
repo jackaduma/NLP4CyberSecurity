@@ -6,7 +6,7 @@
 '''
 Author: Kun
 Date: 2021-12-16 11:21:53
-LastEditTime: 2022-05-16 19:59:05
+LastEditTime: 2022-05-17 18:45:14
 LastEditors: Kun
 Description: 
 FilePath: /my_open_projects/NLP4CyberSecurity/models/simple_nn.py
@@ -15,6 +15,7 @@ FilePath: /my_open_projects/NLP4CyberSecurity/models/simple_nn.py
 import os
 import time
 import numpy as np
+
 import tensorflow as tf
 from keras.models import Sequential
 from keras.layers import Dense, InputLayer, Dropout, Flatten
@@ -32,7 +33,7 @@ tf.compat.v1.disable_eager_execution()
 
 init_session()
 batch_size = 8  # 500
-epochs_num = 50  # 1
+epochs_num = 10 # 50  # 1
 log_dir = "log/simple_nn.log"
 model_dir = os.path.join(CACHE_DIR, "simple_nn_model")
 
