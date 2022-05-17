@@ -36,7 +36,33 @@ weighted avg    0.96410   0.96428   0.96355     66964
 
 ---
 
-## **malicious-url-detection-with-ML**
+## **XSS Injection Detection**
+
+xss injection detection with machine learning
+
+### **simple nn model**
+
+```
+Precision score is : 0.9764296754250387
+Recall score is : 0.9830772223302859
+```
+
+### **simple cnn model**
+
+```
+Precision score is : 0.9948463825569871
+Recall score is : 0.9762692083252286
+```
+
+### **simple lstm model**
+
+```
+Precision score is : 0.9980311084859225
+Recall score is : 0.9869548286604362
+```
+---
+
+## **Malicious URL Detection**
 
 malicious url detection with machine learning
 
