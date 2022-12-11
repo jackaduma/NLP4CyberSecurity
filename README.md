@@ -1,11 +1,67 @@
 # **NLP4CyberSecurity**
 
-NLP  model and tech  for cyber security task
+
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/jackaduma/CycleGAN-VC2)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/jackaduma?locale.x=zh_XC)
+
+[**中文说明**](./README.zh-CN.md) | [**English**](./README.md)
+
+------
+
+This code is  NLP  models and tech  implementation for **cyber security** task, driven by deep learning model, a nice work on **cyber security**.
+
+- [x] Dataset
+  - [x] weak password
+  - [x] xss injection
+  - [x] malicious url
+  - [x] phishing url
+- [x] Usage
+  - [x] Training
+  - [x] Example 
+- [ ] Demo
+- [x] Reference
+
+------
+
+## **Update**
+
+------
+
+
+## **Table of Contents**
+
+- [**NLP4CyberSecurity**](#nlp4cybersecurity)
+  - [**Update**](#update)
+  - [**Table of Contents**](#table-of-contents)
+  - [**Requirement**](#requirement)
+  - [**Usage**](#usage)
+  - [**Weak Password Detection**](#weak-password-detection)
+    - [**Eval Result**](#eval-result)
+  - [**XSS Injection Detection**](#xss-injection-detection)
+    - [**simple nn model**](#simple-nn-model)
+    - [**simple cnn model**](#simple-cnn-model)
+    - [**simple lstm model**](#simple-lstm-model)
+  - [**Malicious URL Detection**](#malicious-url-detection)
+    - [**RNN**](#rnn)
+    - [**CNN**](#cnn)
+    - [**Conv LSTM**](#conv-lstm)
+  - [**Phishing URL Detection**](#phishing-url-detection)
+  - [**Demo**](#demo)
+  - [**Star-History**](#star-history)
+  - [**Reference**](#reference)
+  - [**Donation**](#donation)
+  - [**License**](#license)
+  
+------
 
 
 
+## **Requirement** 
 
-
+```bash
+pip install -r requirements.txt
+```
+## **Usage**
 
 
 ---
@@ -119,3 +175,45 @@ Model Accuracy: 99.82%
 weighted avg    0.99824   0.99823   0.99823      3399
 
 ```
+
+------
+
+
+## **Demo**
+
+Samples:
+
+```
+```
+
+------
+## **Star-History**
+
+![star-history](https://api.star-history.com/svg?repos=jackaduma/NLP4CyberSecurity&type=Date "star-history")
+
+------
+
+## **Reference**
+
+------
+
+## **Donation**
+If this project help you reduce time to develop, you can give me a cup of coffee :) 
+
+AliPay(支付宝)
+<div align="center">
+	<img src="./misc/ali_pay.png" alt="ali_pay" width="400" />
+</div>
+
+WechatPay(微信)
+<div align="center">
+    <img src="./misc/wechat_pay.png" alt="wechat_pay" width="400" />
+</div>
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/jackaduma?locale.x=zh_XC)
+
+------
+
+## **License**
+
+[MIT](LICENSE) © Kun
