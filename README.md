@@ -10,6 +10,8 @@
 
 This code is  NLP  models and tech  implementation for **cyber security** task, driven by deep learning model, a nice work on **cyber security**.
 
+本项目使用自然语言处理（NLP）技术应用于网络安全领域，包括恶意软件检测、漏洞发现和威胁情报等方面。该项目基于Python编程语言和机器学习框架Scikit-learn、TensorFlow和Keras等，实现了一些常见的NLP技术，如文本预处理、特征提取、词嵌入、文本分类和主题建模等。通过对网络安全方面的文本数据进行处理和分析，该项目能够提高网络安全人员的工作效率和准确性，以及更好地发现网络安全威胁。此外，该项目还提供了一些用于网络安全的NLP数据集和预训练模型，方便其他研究人员和开发者使用。
+
 - [x] Dataset
   - [x] weak password
   - [x] xss injection
